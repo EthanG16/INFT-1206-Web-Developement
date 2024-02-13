@@ -125,36 +125,39 @@
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img 
-		srcset="firefox_logo-only_RGB_120.png 120w, firefox_logo-only_RGB_400.png 400w"
-		sizes="(max-width: 500px) 120px, 400px"
-		src="firefox_logo-only_RGB_400.png" 
+	    srcset="firefox_logo-only_RGB_120.png 120w, firefox_logo-only_RGB_400.png 400w"
+	    sizes="(max-width: 500px) 120px, 400px"
+	    src="firefox_logo-only_RGB_400.png" 
 		alt="Firefox logo" >
         </a>
         <a href="https://www.mozilla.org/">
           <img
-		srcset="mozilla-dinosaur-head_120.png 120w, mozilla-dinosaur-head_400.png 400w"
-		sizes="(max-width: 500px) 120px, 400px"
-		src="mozilla-dinosaur-head_400.png" 
-		alt="Mozilla Dinosaur head" >
+	    srcset="mozilla-dinosaur-head_120.png 120w, mozilla-dinosaur-head_400.png 400w"
+	    sizes="(max-width: 500px) 120px, 400px"
+	    src="mozilla-dinosaur-head_400.png" 
+	    alt="Mozilla Dinosaur head" >
 		
         </a>
         <a href="https://addons.mozilla.org/">
           <img
-		srcset="firefox-addons_120.jpg 120w, firefox-addons_400.jpg 400w"
-		sizes="(max-width: 500px) 120px, 400px"
-		src="firefox-addons_400.jpg" 
-		alt="Firefox add ons" >
+	    srcset="firefox-addons_120.jpg 120w, firefox-addons_400.jpg 400w"
+	    sizes="(max-width: 500px) 120px, 400px"
+	    src="firefox-addons_400.jpg" 
+	    alt="Firefox add ons" >
         </a>
         <a href="https://developer.mozilla.org/en-US/">
           <img
-		src="mdn.svg"
- 		alt = Mozilla Developer>
+	    src="mdn.svg"
+ 	    alt = Mozilla Developer>
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+	  <source media="(max-width:600px)" srcset="red-panda_600.png">
+	  <img src="red-panda_1200.jpg" alt="Red Panda">
+	</picture>
       </div>
 
     </main>
