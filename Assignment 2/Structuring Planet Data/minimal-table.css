@@ -40,3 +40,20 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+
+.border-sides {
+  border-left: solid;
+  border-right: solid;
+}
+
+.border-top {
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+}
+
+.border-bottom {
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+}
