@@ -52,7 +52,7 @@ header, footer {
 /* MY CODE BELOW */
 
 /* Site-wide font */
-p {
+html {
   font-size: 10px
 }
 
@@ -77,4 +77,35 @@ h1 {
 /* First paragraph of each heading */
 section {
   text-indentation: 20px;
+}
+
+/* link and visited link */
+a:link, a:visited {
+  color: brown;
+  text-decoration: underline;
+}
+
+/* Focus and hovering over links */
+a:focus, a:hover {
+  color: brown;
+  text-decoration: none;
+}
+ 
+/* Focus links */
+a:focus {
+  outline: none;
+}
+
+/* Active links */
+a:active {
+  background-color: green;
+}
+
+a {
+  background-image: url("external-link-52.png");
+  background-position: right;
+  background-size: 6px;
+  padding-right: 7px;
+  background-repeat: no-repeat;
+  background-image: brown;
 }
