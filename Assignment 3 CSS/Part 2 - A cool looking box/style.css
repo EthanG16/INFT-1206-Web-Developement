@@ -11,3 +11,13 @@ html {
 
 /* Your CSS below here */
 
+div {
+  width: 200px;
+  height: 200px;
+  padding: 3em;
+  text-align: center;
+  font-size: 18px;
+  background-color: #36013f;
+  color: #FFD700;
+
+}
