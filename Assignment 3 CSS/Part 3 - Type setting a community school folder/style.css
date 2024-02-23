@@ -49,4 +49,32 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
+/* MY CODE BELOW */
+
+/* Site-wide font */
+p {
+  font-size: 10px
+}
+
+/* Headings */
+h1, h2 {
+  font size: 16px;
+  letter-spacing: 1.8;
+}
+
+/* Body text */
+body {
+  line-height: 1.2;
+  letter-spacing: 1.8;
+  word-spacing: 1.8;
+}
+
+/* Top level heading  */
+h1 {
+  text-align: center;
+}
+
+/* First paragraph of each heading */
+section {
+  text-indentation: 20px;
+}
