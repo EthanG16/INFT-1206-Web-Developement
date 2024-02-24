@@ -58,15 +58,15 @@ html {
 
 /* Headings */
 h1, h2 {
-  font size: 16px;
-  letter-spacing: 1.8;
+  font-size: 18px;
+  letter-spacing: 1.2px;
 }
 
 /* Body text */
 body {
   line-height: 1.2;
-  letter-spacing: 1.8;
-  word-spacing: 1.8;
+  letter-spacing: 1.2px;
+  word-spacing: 1.8px;
 }
 
 /* Top level heading  */
@@ -76,7 +76,7 @@ h1 {
 
 /* First paragraph of each heading */
 section {
-  text-indentation: 20px;
+  text-indent: 20px;
 }
 
 /* link and visited link */
@@ -87,7 +87,7 @@ a:link, a:visited {
 
 /* Focus and hovering over links */
 a:focus, a:hover {
-  color: brown;
+  color: #E97451;
   text-decoration: none;
 }
  
@@ -98,14 +98,35 @@ a:focus {
 
 /* Active links */
 a:active {
-  background-color: green;
+  background-color: #00A36C;
 }
 
+/* give all external links an external icon */ 
 a {
   background-image: url("external-link-52.png");
   background-position: right;
   background-size: 6px;
   padding-right: 7px;
   background-repeat: no-repeat;
-  background-image: brown;
 }
+
+/*
+ul {
+  line-height: 1.2px;
+}
+
+/* List */
+li {
+  list-style-type: square
+}
+
+/* navbar */
+nav {
+  display: block;
+  width: 130px;
+  background-color: #909090;
+  text-align: center;
+  padding: 0
+}
+
+
