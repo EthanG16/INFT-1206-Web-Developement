@@ -1,3 +1,11 @@
+/*
+	Name: Ethan Gonta
+	File: index.html
+	Date: April 4th, 2024
+	 Image gallery
+
+	*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
