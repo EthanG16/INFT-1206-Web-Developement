@@ -1,3 +1,10 @@
+/*
+	Name: Ethan Gonta
+	File: index.html
+	Date: April 4th, 2024
+	 Adding features to the bouncing balls.
+	*/
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
