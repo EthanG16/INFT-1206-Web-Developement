@@ -1,3 +1,11 @@
+/*
+	Name: Ethan Gonta
+	File: index.html
+	Date: April 12th, 2024
+	 Accessibility troubleshooting.
+
+	*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
