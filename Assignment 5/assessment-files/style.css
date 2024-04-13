@@ -92,6 +92,8 @@ nav[class="nav"] li {
   flex: 1;
 }
 
+
+
 nav[class="nav"] a {
   display: inline-block;
   font-size: 2rem;

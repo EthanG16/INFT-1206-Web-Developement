@@ -53,3 +53,11 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+var pressButton = document.getElementById("button");
+pressButton.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("button").click();
+  }
+});
