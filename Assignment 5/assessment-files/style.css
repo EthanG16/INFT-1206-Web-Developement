@@ -11,6 +11,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-size: 12pt;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
 }
 
 html {
@@ -55,6 +58,10 @@ font[size="5"] {
 p, li, table {
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+br {
+  font-size: 12pt;
 }
 
 /* || header layout */
